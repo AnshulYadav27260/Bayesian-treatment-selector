@@ -1,4 +1,5 @@
-!pip install scipy
+pip install --upgrade pip scipy
+python -c "import scipy; print(scipy.__version__)"
 import streamlit as st
 import numpy as np
 import pandas as pd
